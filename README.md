@@ -1,10 +1,4 @@
 Task at IT school
-Aim: Create a Client-Server app
-Server has a list of books.
-Client can add a new book and see the list of books.
-The app has a menu:
-PRESS [1] TO LIST BOOKS
-PRESS [2] TO ADD BOOKS
-PRESS [0] TO DISCONNECT FROM SERVER
-
-Several clients may use the app at the same time.
+Aim: Create a GUI window for Clients, so they can send messages to server.
+At first, Client has to specify IP & PORT. If it is correct, Client should be transfered to another page/GUI window/, where he/she can leave a message.
+There is no need to create a separate server. Terminal of IntelliJ IDEA will be performing server. But it has to accept and deal with several Clients at the same time.
